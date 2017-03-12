@@ -1,0 +1,20 @@
+header {
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    font-style: italic;
+    color: #FFFFFF;
+    background-color: #13679C;
+    text-align: right;
+    padding: 5px;
+}
+
+main {
+    font-size: x-large;
+    font-style: bold;
+    text-align: center;
+}
