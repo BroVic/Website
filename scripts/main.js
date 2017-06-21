@@ -4,5 +4,9 @@ function init() {
     console.log("The DOM is ready.");
 }
 
-var myHeading = document.querySelector('h1');
-myHeading.textContent = 'The Opportunist';
+
+addEventListener("click", function() {
+    var myHeading = document.querySelector("#topHeader");
+    myHeading.innerHTML = 'The Opportunist';    
+})
+
