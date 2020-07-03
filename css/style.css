@@ -2,9 +2,10 @@ body {
     margin: 0px;
 }
 
-header {
-    text-align: center;
+#top {
+    text-align: left;
     padding: .2px;
+    padding-left: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #13679C;
     margin: 0px;
@@ -12,13 +13,16 @@ header {
     color: beige;
 }
 
-footer {
+#bottom {
     font-style: italic;
-    color: #FFFFFF;
-    background-color: #13679C;
     text-align: right;
     padding: 5px;
     border-bottom: solid darkgrey;
+}
+
+header, footer {
+    color: #FFFFFF;
+    background-color: #13679C;
 }
 
 main {
